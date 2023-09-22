@@ -45,7 +45,6 @@ public class UserController {
         return null;
     }
 
-
     @PatchMapping("/{userId}/updatePassword")
     public String updatePassword(
             @PathVariable int userId,
